@@ -1,0 +1,36 @@
+{
+  "linkedin": {
+    "email": "your-email@example.com",
+    "password": "your-password"
+  },
+  "blocking": {
+    "sensitivity": "medium",
+    "blockKeywords": [
+      "hiring",
+      "opportunity",
+      "job opening",
+      "recruiter",
+      "talent acquisition",
+      "we're hiring",
+      "exciting opportunity"
+    ],
+    "allowKeywords": [
+      "colleague",
+      "former",
+      "referral"
+    ],
+    "blockRecruiterTitles": true,
+    "blockSecondDegree": false,
+    "blockThirdDegree": true
+  },
+  "notifications": {
+    "enabled": true,
+    "summary": true,
+    "alertOnBlock": true
+  },
+  "safeMode": true,
+  "logging": {
+    "enabled": true,
+    "level": "info"
+  }
+}
